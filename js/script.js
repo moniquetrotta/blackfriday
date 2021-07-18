@@ -10,8 +10,6 @@ function salvarEmail (){
   
   Email = document.getElementById('email').value;
   localStorage.setItem("Email" +localStorage.cont, Email);
-  } else {
-  
-  }
-  
+  } else {  
+  }  
 }

@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
-
 }
-/*Sessão ocupa 100% do monitor*/
+
 .section-container {
   height: 100vh;
   width: 100%;
@@ -25,44 +24,35 @@ html {
   width: 50%;
 }
 .background-section-one {
-  background-color: #100E0E;
-} 
- /* background-image: url(/assets/logo-black-friday\ \(1\).png); /*Imagem fundo da logo*/
- /* background-attachment: fixed; /*fundo fixo no fundo e html fluido*/
-/* background-size: cover; /*inteiro*/
-/* background-repeat: no-repeat;
-} 
-*/
-.background-section-two {
-  background-color: #100E0E;
-  color: #FCB100;
-  display: flex;
-  flex-direction: column;
-/* background-image: url(/assets/logo1.png); /*Imagem fundo da logo*/
-/* background-attachment: fixed; /*fundo fixo no fundo e html fluido*/
-/* background-size: cover; /*inteiro*/
-/* background-repeat: no-repeat; */
+  background-color: #100e0e;
 }
 
-h1{
+.background-section-two {
+  background-color: #100e0e;
+  color: #fcb100;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
   font-size: 40px;
   margin-bottom: 60px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   text-align: center;
   margin-bottom: 20px;
-  color: #FCB100;
+  color: #fcb100;
 }
 
 h2 {
   font-size: 60px;
   margin-bottom: 60px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
 }
 
 p {
-  color: #FCB100;
+  color: #fcb100;
   text-align: center;
 }
 
@@ -70,28 +60,25 @@ p {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  
 }
 .sneakers {
-background-color: #15131395; /*hexadecimal + numero = opacidade*/
-/*padding: 5px;*/
-border-radius: 4%;
-box-shadow: 3px 3px 1px 0px #00000040;
-width: 360px;
-height: 390px;
-display: flex;
-flex-direction: column;
- align-items: center;
-/*border: 1px solid black;*/
+  background-color: #15131395;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000040;
+  width: 360px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .color {
   width: 250px;
   padding: 55px;
 }
-.btn{
+.btn {
   background-color: transparent;
-  border-color: #FF0C28;
-  color: #FF0C28;
+  border-color: #ff0c28;
+  color: #ff0c28;
   padding: 7px 35px;
   font-weight: bold;
   font-size: 12pt;
@@ -99,67 +86,55 @@ flex-direction: column;
   border-radius: 15px;
   cursor: pointer;
   outline: none;
-  transition: all .4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
-.btn:hover{
-  background-color: #FF0C28;
+.btn:hover {
+  background-color: #ff0c28;
   color: #fff;
 }
 
-
-/* CODE PEN*/
-.container-FORM { 
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 100px;
-}
-
 .card {
-  background-color: #15131395; /*hexadecimal + numero = opacidade*/
+  background-color: #15131395;
   padding: 30px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px #00000060;
   width: 400px;
 }
 
-
-
-.label-float input{
+.label-float input {
   width: 100%;
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid #FCB10080;
+  border-bottom: 2px solid #fcb10080;
   background-color: transparent;
   outline: none;
   min-width: 180px;
   font-size: 16px;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
   border-radius: 0;
-  
 }
 
-.label-float{
+.label-float {
   position: relative;
   padding-top: 13px;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.label-float input:focus{
-  border-bottom: 2px solid #FCB100;
+.label-float input:focus {
+  border-bottom: 2px solid #fcb100;
 }
 
-.label-float label{
+.label-float label {
   color: #959595;
   pointer-events: none;
   position: absolute;
   top: 0;
   left: 0;
   margin-top: 13px;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .label-float input:focus + label,
@@ -170,55 +145,18 @@ flex-direction: column;
 }
 
 #email {
-  color:#F05701;
+  color: #f05701;
 }
 
-
-
-.justify-center{
+.justify-center {
   display: flex;
   justify-content: center;
 }
 
-.container {
-  margin:5px;
-  padding:5px;
-  display: flex;
-  
-}
-
-/* button {
-  margin: 10px;
-} */
-
-/*END CODE PEN*/
-/*
-.card-container {
-  background-color: #fff;
-  border-radius: 25px;
-  padding: 25px;
-  max-width: 600px;
-  display: grid;
-
-}
-
-form {
-  display: grid;
-}
-
-input {
-  width: 100%;
-  height: 30px;
-  margin-bottom: 10px;
-  text-align: center;
-  border-radius: 12px;
-  background-color: #000;
-  color: #fff;
-}*/
 footer {
-  height:100px;
+  height: 100px;
   padding-top: 25px;
   text-align: center;
-  background-color: #100E0E;
-  color: #FF0C28;
+  background-color: #100e0e;
+  color: #ff0c28;
 }
